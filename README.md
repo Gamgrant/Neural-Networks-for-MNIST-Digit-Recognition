@@ -4,6 +4,15 @@ The classic MNIST dataset consists of 28x28 pixel (784 features) grayscale image
 
 In this problem, I implemented a neural network to classify the MNIST dataset using raw pixels as features. Specifically, I implemented a type of architecture called a Multi-Layered Perceptron (MLP), which consists of several Dense layers (i.e. “Perceptrons”) connected sequentially, with nonlinear activation functions after each layer. Then I trained this network using the Categorical Cross-Entropy loss function, usign SGD and Adam optimizer
 
+# Lowest Validation Loss using SGD
+
+![Lowest Validation Loss using SGD](results/lowest_validation_loss_SGD.png)
+
+# Lowest Validation Loss using Adam
+
+![Lowest Validation Loss using SGD](results/lowest_validation_loss_adam.png)
+
 # Training & Validation Loss & Accuracy vs Epochs
 
-![Training & Validation Loss & Accuracy vs Epochs](results/lowest_validation_loss_SGD.png)
+![Training & Validation Loss & Accuracy vs Epochs](results1.png)
+
